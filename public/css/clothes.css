@@ -1,0 +1,28 @@
+.menu {
+    float: left;
+    width: 200px;
+}
+
+.main {
+    margin-left: 200px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(0,0,0,0.2);
+    justify-content: center;
+}
+
+.flex-container > div {
+    background-color: #fff;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    /*line-height: 75px;*/
+}
+
+.flex-container > div > img {
+    max-width: 300px;
+    height: 300px;
+}
