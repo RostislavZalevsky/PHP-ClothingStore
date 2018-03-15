@@ -11,15 +11,5 @@
       <user-name>root</user-name>
       <introspection-schemas>*:ClothingStore</introspection-schemas>
     </data-source>
-    <data-source name="ClothingStore@clothingstoreserver.database.windows.net" uuid="45390b48-ca25-4cb1-80d5-1d33bca38735">
-      <database-info product="Microsoft SQL Server" version="12.00.1001" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 6.0 for SQL Server" driver-version="6.0.8112.100">
-        <extra-name-characters>$#@</extra-name-characters>
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>ClothingStoreAdmin</user-name>
-      <introspection-schemas>ClothingStore:dbo</introspection-schemas>
-    </data-source>
   </component>
 </project>

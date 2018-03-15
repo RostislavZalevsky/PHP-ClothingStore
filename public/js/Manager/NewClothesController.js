@@ -131,8 +131,9 @@ app.directive("fileread", [function () {
 
                         $scope.DeleteRow();
                         $scope.AddRow();
-                    }, function errorCallback() {
+                    }, function errorCallback(r) {
                         alert('Error creating clothes');
+                        console.log(r);
                     });
             });
         };

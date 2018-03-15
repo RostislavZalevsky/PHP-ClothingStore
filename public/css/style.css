@@ -1,0 +1,28 @@
+@font-face {
+    font-family: CenturyGothicRegular;
+    src: url(../font/CenturyGothicRegular.ttf);
+}
+
+body {
+    font-family: CenturyGothicRegular;
+}
+
+*{
+    outline:none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid #222222;
+}
+
+th {
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+}

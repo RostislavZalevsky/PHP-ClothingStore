@@ -34,10 +34,11 @@ Route::post('/GetClothes', function (\Illuminate\Http\Request $request){
         ->join('Size', 'ItemOfClothes.SizeId', '=', 'Size.Id')
         ->join('Color', 'ItemOfClothes.ColorId', '=', 'Color.Id')
         ->join('Clothes', 'ItemOfClothes.ClothesId', '=', 'Clothes.Id')
+        ->join('Department', 'Clothes.DepartmentId', '=', 'Department.Id')
         ->join('Kind', 'Clothes.KindId', '=', 'Kind.Id')
         ->join('Brand', 'Clothes.BrandId', '=', 'Brand.Id')
         ->join('Style', 'Clothes.StyleId', '=', 'Style.Id')
-        ->join('Department', 'Clothes.DepartmentId', '=', 'Department.Id');
+        ;
 
     $result = array("Department" => [], "Kinds" => [], "Brands" => [], "Styles" => [], "Sizes" => [], "Colors" => [], "Clothes" => []);
 
@@ -47,7 +48,7 @@ Route::post('/GetClothes', function (\Illuminate\Http\Request $request){
     if ($request->input("Department") != null)
         $ItemOfClothes->where('Department.Id', $request->input("Department"));
 
-    foreach (collect($ItemOfClothes->select('Kind.Id', 'Kind.Name', 'Department.Name as Department')->get())->groupBy('Id') as $kind)
+    foreach (collect($ItemOfClothes->select('Kind.Id', 'Kind.Name')->get())->groupBy('Id') as $kind)
         $result["Kinds"][] = $kind[0];
 
     foreach (collect($ItemOfClothes->select('Brand.Id', 'Brand.Name')->get())->groupBy('Id') as $brand)
@@ -77,8 +78,15 @@ Route::post('/GetClothes', function (\Illuminate\Http\Request $request){
     if (count($request->input("Colors")) > 0)
         $ItemOfClothes->whereIn('Color.Id', $request->input("Colors"));
 
-    $result["Clothes"] = collect($ItemOfClothes->select(array('Clothes.Id', 'Clothes.Name', 'Clothes.Description', 'Clothes.KindId',
-        'Clothes.BrandId', 'Clothes.StyleId', 'SizeId', 'ColorId', 'Images', 'Count', 'Code', 'Clothes.Price'))->get())->groupBy('Id');
+    $result["Clothes"] = collect($ItemOfClothes->select(array(
+        'ItemOfClothes.Id as ItemOfClothesId', 'Clothes.Id', 'Clothes.Name',
+        'Clothes.Description',
+        'Clothes.KindId', 'Kind.Name as Kind',
+        'Clothes.BrandId', 'Brand.Name as Brand',
+        'Clothes.StyleId', 'Style.Name as Style',
+        'SizeId', 'Size.Name as Size',
+        'ColorId', 'Color.Name as Color',
+        'Images', 'Count', 'Code', 'Clothes.Price'))->get())->groupBy('Id');
 
     return $result;
 });
@@ -100,6 +108,10 @@ Route::post('GetAllClothes', function (\Illuminate\Http\Request $request) {
 
     return $result;
 });
+
+Route::post('EditItem', 'ManagerController@EditItem');
+Route::post('NewItem', 'ManagerController@NewItem');
+Route::post('DeleteItem', 'ManagerController@DeleteItem');
 
 Route::get('event', function () {
     event(new \App\Events\ClothesEvent('Hello!'));

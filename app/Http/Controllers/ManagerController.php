@@ -242,4 +242,87 @@ class ManagerController extends Controller
 
         return $rand;
     }
+
+    public function EditItem(Request $request)
+    {
+        if (!self::Auth()) return null;
+        $ItemOfClothes = $request->input();
+
+        foreach ($ItemOfClothes as $item)
+        {
+            if (!DB::table('Size')->where('Name', $item['Size'])->exists())
+                DB::table('Size')->insert([
+                    'Name' => $item['Size']
+                ]);
+
+            if (!DB::table('Color')->where('Name', $item['Color'])->exists())
+                DB::table('Color')->insert([
+                    'Name' => $item['Color']
+                ]);
+        }
+//
+//        foreach ($ItemOfClothes as $item)
+//            DB::table('ItemOfClothes')->where('ClothesId', $item['Id'])->update(['Count' => 0]);
+//
+//        foreach ($ItemOfClothes as $item)
+//            DB::table('ItemOfClothes')
+//                ->where('ItemOfClothes.Id', $item['ItemOfClothesId'])
+//                ->join('Clothes', 'ItemOfClothes.ClothesId', '=', 'Clothes.Id')
+//                ->join('Size', 'ItemOfClothes.SizeId', '=', 'Size.Id')
+//                ->join('Color', 'ItemOfClothes.ColorId', '=', 'Color.Id')
+//                ->update([
+//                    'Clothes.Name' => $item['Name'],
+//                    'Clothes.Description' => $item['Description'],
+//                    'Clothes.Price' => $item['Price'] *= 100,
+//                    'Color.Name' => $item['Color'],
+//                    'Size.Name' => $item['Size'],
+//                    'ItemOfClothes.Images' => json_encode($item['Images']),
+//                    'ItemOfClothes.Count' => $item['Count'],
+//            ]);
+//
+//        event(new ClothesEvent('Edited clothes.'));
+
+//        return ($ItemOfClothes[0])['Id'];
+    }
+
+    public function NewItem(Request $request)
+    {
+        if (!self::Auth()) return null;
+
+        if (!DB::table('Size')->where('Name', $request->input('Size'))->exists())
+            DB::table('Size')->insert([
+                'Name' => $request->input('Size')
+            ]);
+
+        if (!DB::table('Color')->where('Name', $request->input('Color'))->exists())
+            DB::table('Color')->insert([
+                'Name' => $request->input('Color')
+            ]);
+
+        $rand = 0;
+        do
+        {
+            $rand = rand(1000000, 10000000);
+        } while(DB::table('ItemOfClothes')->where('Code', $rand)->exists());
+
+        DB::table('ItemOfClothes')->insert([
+            'SizeId' => DB::table('Size')->where('Name' , $request->input('Size'))->first()->Id,
+            'ColorId' => DB::table('Color')->where('Name' , $request->input('Color'))->first()->Id,
+            'Images' => json_encode($request->input('Images')),
+            'Count' => $request->input('Count'),
+            'Code' => $rand,
+            'ClothesId' => $request->input('Id'),
+        ]);
+
+        event(new ClothesEvent('New item.'));
+
+        return;
+    }
+
+    public function DeleteItem(Request $request)
+    {
+        if (!self::Auth()) return null;
+
+        return $request->input();
+    }
 }

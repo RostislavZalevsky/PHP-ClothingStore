@@ -9,6 +9,7 @@
     <title>Clothing Store @yield('title')</title>
     @section('style')
     @show
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css">
     <script src="https://js.stripe.com/v3/"></script>
     <script src="js/angular.min.js"></script>
     <script src="{{ asset('js/app.js') }}"></script>

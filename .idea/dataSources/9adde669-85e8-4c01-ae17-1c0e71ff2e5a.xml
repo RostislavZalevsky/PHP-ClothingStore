@@ -1095,13 +1095,13 @@
       <RefTableName>Manager</RefTableName>
       <RefColNames>Id</RefColNames>
     </foreign-key>
-    <foreign-key id="270" parent="232" name="clothes_ibfk_2">
+    <foreign-key id="270" parent="232" name="clothes_ibfk_3">
       <ColNames>DepartmentId</ColNames>
       <RefSchemaName>clothingstore</RefSchemaName>
       <RefTableName>Department</RefTableName>
       <RefColNames>Id</RefColNames>
     </foreign-key>
-    <foreign-key id="271" parent="232" name="clothes_ibfk_3">
+    <foreign-key id="271" parent="232" name="clothes_ibfk_2">
       <ColNames>KindId</ColNames>
       <RefSchemaName>clothingstore</RefSchemaName>
       <RefTableName>Kind</RefTableName>
@@ -1307,185 +1307,177 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="309" parent="237" name="Name">
-      <ColNames>Name</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="310" parent="237" name="PRIMARY">
+    <key id="309" parent="237" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="311" parent="237" name="Name">
-      <ColNames>Name</ColNames>
-      <UnderlyingIndexName>Name</UnderlyingIndexName>
-    </key>
-    <column id="312" parent="238" name="Id">
+    <column id="310" parent="238" name="Id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="313" parent="238" name="FullName">
+    <column id="311" parent="238" name="FullName">
       <Position>2</Position>
       <DataType>varchar(70)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="314" parent="238" name="Email">
+    <column id="312" parent="238" name="Email">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="315" parent="238" name="Phone">
+    <column id="313" parent="238" name="Phone">
       <Position>4</Position>
       <DataType>varchar(15)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="316" parent="238" name="Password">
+    <column id="314" parent="238" name="Password">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="317" parent="238" name="Salt">
+    <column id="315" parent="238" name="Salt">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="318" parent="238" name="CreateDate">
+    <column id="316" parent="238" name="CreateDate">
       <Position>7</Position>
       <DataType>datetime|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="319" parent="238" name="Email">
+    <index id="317" parent="238" name="Email">
       <ColNames>Email</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="320" parent="238" name="PRIMARY">
+    <key id="318" parent="238" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="321" parent="238" name="Email">
+    <key id="319" parent="238" name="Email">
       <ColNames>Email</ColNames>
       <UnderlyingIndexName>Email</UnderlyingIndexName>
     </key>
-    <column id="322" parent="239" name="Id">
+    <column id="320" parent="239" name="Id">
       <Position>1</Position>
       <DataType>bigint(20) unsigned|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="323" parent="239" name="CustomerId">
+    <column id="321" parent="239" name="CustomerId">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="324" parent="239" name="ItemOfClothesId">
+    <column id="322" parent="239" name="ItemOfClothesId">
       <Position>3</Position>
       <DataType>bigint(20) unsigned|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="325" parent="239" name="Count">
+    <column id="323" parent="239" name="Count">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="326" parent="239" name="Amount">
+    <column id="324" parent="239" name="Amount">
       <Position>5</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="327" parent="239" name="OrderedDate">
+    <column id="325" parent="239" name="OrderedDate">
       <Position>6</Position>
       <DataType>datetime|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="328" parent="239" name="CustomerId">
+    <index id="326" parent="239" name="CustomerId">
       <ColNames>CustomerId</ColNames>
     </index>
-    <index id="329" parent="239" name="ItemOfClothesId">
+    <index id="327" parent="239" name="ItemOfClothesId">
       <ColNames>ItemOfClothesId</ColNames>
     </index>
-    <key id="330" parent="239" name="PRIMARY">
+    <key id="328" parent="239" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="331" parent="239" name="ordered_ibfk_1">
+    <foreign-key id="329" parent="239" name="ordered_ibfk_1">
       <ColNames>CustomerId</ColNames>
       <RefSchemaName>clothingstore</RefSchemaName>
       <RefTableName>Customer</RefTableName>
       <RefColNames>Id</RefColNames>
     </foreign-key>
-    <foreign-key id="332" parent="239" name="ordered_ibfk_2">
+    <foreign-key id="330" parent="239" name="ordered_ibfk_2">
       <ColNames>ItemOfClothesId</ColNames>
       <RefSchemaName>clothingstore</RefSchemaName>
       <RefTableName>ItemOfClothes</RefTableName>
       <RefColNames>Id</RefColNames>
     </foreign-key>
-    <column id="333" parent="240" name="Id">
+    <column id="331" parent="240" name="Id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="334" parent="240" name="Name">
+    <column id="332" parent="240" name="Name">
       <Position>2</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="335" parent="240" name="Name">
+    <index id="333" parent="240" name="Name">
       <ColNames>Name</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="336" parent="240" name="PRIMARY">
+    <key id="334" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="337" parent="240" name="Name">
+    <key id="335" parent="240" name="Name">
       <ColNames>Name</ColNames>
       <UnderlyingIndexName>Name</UnderlyingIndexName>
     </key>
-    <column id="338" parent="241" name="Id">
+    <column id="336" parent="241" name="Id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="339" parent="241" name="Name">
+    <column id="337" parent="241" name="Name">
       <Position>2</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="340" parent="241" name="Name">
+    <index id="338" parent="241" name="Name">
       <ColNames>Name</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="341" parent="241" name="PRIMARY">
+    <key id="339" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="342" parent="241" name="Name">
+    <key id="340" parent="241" name="Name">
       <ColNames>Name</ColNames>
       <UnderlyingIndexName>Name</UnderlyingIndexName>
     </key>
