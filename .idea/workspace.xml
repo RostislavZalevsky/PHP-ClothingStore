@@ -2,24 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce9053f-88d6-48aa-89ae-f51e9ea40007" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/font/CenturyGothicRegular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/img/shopping-bag.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4460bcb3-da69-498f-912c-fad53056376d.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45390b48-ca25-4cb1-80d5-1d33bca38735.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/859634ec-f3bf-4af2-a904-e8b73a73d8c5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9adde669-85e8-4c01-ae17-1c0e71ff2e5a.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/9adde669-85e8-4c01-ae17-1c0e71ff2e5a.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e8b6f296-a127-492c-a504-efe92ccf7c51.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" />
-      <change beforePath="$PROJECT_DIR$/public/css/modal.css" afterPath="$PROJECT_DIR$/public/css/modal.css" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa578523a0827.55304031.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57852651eb7.50773567.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa579c837a2a3.69425993.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57ad5be0ca0.77537233.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57ad5e8c827.50483409.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57ad6204e69.40555943.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57ad650dc78.11635837.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57c5ee80898.57222683.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57c5f206636.11052644.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57c5f523c61.60315917.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57c5f851e52.26096269.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57d5f03dc07.93502554.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57d5f2f9892.98274189.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57d5f5c1fc8.65370550.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57d5f90d082.49432520.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57dcd6b83a2.35599257.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57dcd94f163.39791724.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa57dcdbd7f37.48303026.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa582baafd729.23405476.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa582badc2905.63443182.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa58351726776.22164791.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59bb88b73f1.98914136.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59bb8b91554.02786807.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59bb8e1e304.05666425.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59bb91c1398.19693823.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59d5231b380.59388215.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59d525e9a62.35052926.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59d528a1fb0.15921970.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59d52b58169.04844967.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59ea197fec9.50802274.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59ea1c46c39.97698540.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa59ea1ece589.16592025.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa8c7ccecaea5.26637057.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa8d0225d74a5.48255996.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa8d0225d83a1.09260981.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa8d022878009.99540722.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa8d022878d06.27187729.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa8d022879511.17689185.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa8d022879cd0.52840706.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aa9fc2b0ca698.08117734.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa2361d63056.42071495.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa23ac12c773.37339832.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa23ac42c980.98125740.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa23ac72b499.91093742.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa23aca15a62.69075350.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa246103c477.34449641.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa280fdc6b97.96794175.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa359b856879.99626368.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4af5b68787.14527422.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4b3530ddb0.02053490.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4bb98c3677.61903461.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4bf1cde820.88017764.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f4199.28062776.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f4fd4.04706357.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f5824.26602606.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f6003.20504058.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f67c8.56877800.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f6f86.14435033.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f7834.12553718.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f81f1.59574232.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f8b79.60047638.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f9534.74733545.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7f9f29.99922856.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7fa843.92306513.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7fb0e8.82589665.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7fba61.39503584.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7fc360.42699368.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7fcbd0.36656046.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7fd498.64865072.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7fdce9.63534798.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7fe567.30160754.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c3a7fee02.92979562.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c497a3e08.81372321.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa4c89b077f4.97928824.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa5a9ccfbc45.90687905.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa5b3b75dfe7.73544257.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa5cb70a2707.99082392.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa5da6ebcc06.26851914.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa607eb4b584.91217931.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa61e15bd159.39151485.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa623d4d4f73.00619195.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa6b2700a505.64805288.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/IMG5aaa6ec6ccacc6.44494358.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/public/js/Clothes/Clothes.js" afterPath="$PROJECT_DIR$/public/js/Clothes/Clothes.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/Manager/NewClothesController.js" afterPath="$PROJECT_DIR$/public/js/Manager/NewClothesController.js" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +116,55 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ClothingStore: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DATABASE/9adde669-85e8-4c01-ae17-1c0e71ff2e5a.SCHEMA:ClothingStore" pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/9adde669-85e8-4c01-ae17-1c0e71ff2e5a.SCHEMA:ClothingStore">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>9adde669-85e8-4c01-ae17-1c0e71ff2e5a.SCHEMA:ClothingStore</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Clothes</node>
+                <node x="524.0" y="0.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Manager</node>
+                <node x="0.0" y="504.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Kind</node>
+                <node x="213.0" y="504.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Department</node>
+                <node x="331.0" y="296.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Customer</node>
+                <node x="426.0" y="504.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Size</node>
+                <node x="237.0" y="0.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.ItemOfClothes</node>
+                <node x="639.0" y="504.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Color</node>
+                <node x="574.0" y="296.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.AuthTokens</node>
+                <node x="0.0" y="296.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Ordered</node>
+                <node x="0.0" y="624.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Brand</node>
+                <node x="213.0" y="624.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Style</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.6564673157162726" x="170.43432203389835" y="217.73411016949152" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,12 +239,13 @@
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/public/css/modal.css" />
         <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/Clothes/Clothes.js" />
         <option value="$PROJECT_DIR$/public/js/Manager/NewClothesController.js" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9adde669-85e8-4c01-ae17-1c0e71ff2e5a/console.sql" />
+        <option value="$PROJECT_DIR$/public/js/Clothes/Clothes.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ClothesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -244,7 +358,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -274,12 +387,61 @@
             <path>
               <item name="PHP ClothingStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP ClothingStore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mail" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP ClothingStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP ClothingStore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP ClothingStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP ClothingStore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP ClothingStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP ClothingStore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP ClothingStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP ClothingStore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Clothes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP ClothingStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP ClothingStore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Manager" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP ClothingStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP ClothingStore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP ClothingStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP ClothingStore" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP ClothingStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP ClothingStore" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,16 +453,16 @@
     <property name="list.type.of.created.stylesheet" value="Native" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/Manager" />
+      <recent name="$PROJECT_DIR$/public/js/Manager" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/resources/assets" />
       <recent name="$PROJECT_DIR$/resources/assets/font" />
       <recent name="$PROJECT_DIR$/public/fonts" />
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/Manager" />
-      <recent name="$PROJECT_DIR$/public/js/Manager" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,37 +498,60 @@
       <workItem from="1521118740508" duration="127000" />
       <workItem from="1521119161157" duration="2000" />
       <workItem from="1521119742968" duration="139000" />
-      <workItem from="1521120066478" duration="23000" />
+      <workItem from="1521120066478" duration="313000" />
+      <workItem from="1521120574403" duration="4815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106393000" />
+    <option name="totallyTimeSpent" value="111498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="800" height="600" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2160229" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2267525" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40369394" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4182058" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24934037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2267525" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -381,20 +566,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="14" lean-forward="false" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mail/ManagerMail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-106">
@@ -755,37 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/9adde669-85e8-4c01-ae17-1c0e71ff2e5a.SCHEMA:ClothingStore">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>9adde669-85e8-4c01-ae17-1c0e71ff2e5a.SCHEMA:ClothingStore</OriginalElement>
-          <nodes>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Size</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Style</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Kind</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Customer</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Manager</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Color</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.ItemOfClothes</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Department</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.AuthTokens</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Clothes</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Brand</node>
-            <node x="" y="">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Ordered</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="421.0" y="362.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/en/validation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -837,13 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="310" column="192" lean-forward="false" selection-start-line="310" selection-start-column="192" selection-end-line="310" selection-end-column="192" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/Manager/NewClothesController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
@@ -879,39 +1012,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9adde669-85e8-4c01-ae17-1c0e71ff2e5a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ManagerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="251" column="9" lean-forward="false" selection-start-line="251" selection-start-column="9" selection-end-line="251" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ManagerController copy.php" />
     <entry file="file://$PROJECT_DIR$/public/js/Clothes/Clothes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="282" column="37" lean-forward="false" selection-start-line="282" selection-start-column="27" selection-end-line="282" selection-end-column="37" />
+        <state relative-caret-position="304">
+          <caret line="273" column="40" lean-forward="false" selection-start-line="273" selection-start-column="40" selection-end-line="273" selection-end-column="40" />
+          <folding>
+            <element signature="e#659#675#0" expanded="false" />
+            <element signature="e#2105#2319#0" expanded="false" />
+            <element signature="e#2327#2343#0" expanded="false" />
+            <element signature="e#4362#4377#0" expanded="false" />
+            <element signature="e#4636#4665#0" expanded="false" />
+            <element signature="e#5343#5567#0" expanded="false" />
+            <element signature="e#5609#6829#0" expanded="false" />
+            <element signature="e#7027#7167#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="-830">
+          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ClothesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#67#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ManagerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="378" column="0" lean-forward="false" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
+          <folding>
+            <element signature="e#395#465#0#HTML" expanded="false" />
+            <element signature="e#8957#8996#0#HTML" expanded="false" />
+            <element signature="e#9022#9060#0#HTML" expanded="false" />
+            <element signature="e#9203#9255#0#HTML" expanded="false" />
+            <element signature="e#9384#9436#0#HTML" expanded="false" />
+            <marker date="1521123882000" expanded="true" signature="9:17" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="29:56" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="68:75" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="95:119" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="175:201" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="257:282" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="343:349" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="597:668" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="1619:1659" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="9313:9354" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="13621:13661" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="14205:14245" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="22143:22151" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="22262:22333" ph="..." />
+            <marker date="1521123882000" expanded="true" signature="22421:22461" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9adde669-85e8-4c01-ae17-1c0e71ff2e5a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="88" column="23" lean-forward="false" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/9adde669-85e8-4c01-ae17-1c0e71ff2e5a.SCHEMA:ClothingStore">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>9adde669-85e8-4c01-ae17-1c0e71ff2e5a.SCHEMA:ClothingStore</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Clothes</node>
+            <node x="524.0" y="0.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Manager</node>
+            <node x="0.0" y="504.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Kind</node>
+            <node x="213.0" y="504.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Department</node>
+            <node x="331.0" y="296.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Customer</node>
+            <node x="426.0" y="504.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Size</node>
+            <node x="237.0" y="0.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.ItemOfClothes</node>
+            <node x="639.0" y="504.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Color</node>
+            <node x="574.0" y="296.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.AuthTokens</node>
+            <node x="0.0" y="296.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Ordered</node>
+            <node x="0.0" y="624.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Brand</node>
+            <node x="213.0" y="624.0">9adde669-85e8-4c01-ae17-1c0e71ff2e5a.TABLE:ClothingStore.Style</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6564673157162726" x="170.43432203389835" y="217.73411016949152" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>

@@ -12,7 +12,9 @@
 @section('body')
     <div>
         <header>
-            Clothing Store
+            <div style="width: 100%; font-size: 60px; width: 100%; text-align: center;">
+            <span>Clothing Store</span>
+            </div>
             <hr/>
             <!--#region Manager  -->
             @if(\App\Http\Controllers\Controller::Auth() && $_SESSION["ManagerId"] == 1)
@@ -149,56 +151,56 @@
             <!--#endregion -->
         </header>
         <main ng-controller="Clothes">
-            <button ng-repeat="item in Clothes.Options.Department track by $index" ng-click="Department(item.Id)">@{{item.Name}}</button>
-            <button ng-click="Department()">All</button>
-            @if(!\App\Http\Controllers\Controller::Auth())
-            <button ng-click="ModalShoppingBasket()"><img src="img/shopping-bag.png" width="50">@{{Shopping.Basket.length}}</button>
-            <div ng-style="modalShoppingBasket" ng-click="NotModalShoppingBasket($event)" class="modal">
-                <div class="modal-content">
-                    <table>
-                        <thead>
-                        <tr>
-                            <th>Clothes</th>
-                            <th>Price</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr ng-repeat="item in Shopping.Basket track by $index">
-                            <td>
-                                <img style="max-width: 100px; max-height: 100px" ng-src="/img/@{{item.Images[0]}}"> @{{ item.Name }}<br/>
-                                @{{ item.Color }}
-                                @{{ item.Size }}
-                                <button ng-click="RemoveItem($index)">Delete</button>
-                            </td>
-                            <td>$@{{ item.Price / 100 * item.Count }}</td>
-                        </tr>
-                        </tbody>
-                        <tfoot>
-                        <tr>
-                            <td colspan="2">
-                                <form action="api/charge" method="post" id="payment-form">
-                                    <div class="form-row">
-                                        <label for="card-element">
-                                            Credit or debit card
-                                        </label>
-                                        <div id="card-element">
-                                            <!-- A Stripe Element will be inserted here. -->
-                                        </div>
+            <div style="width: 100%; text-align: center">
+                <button style="height: 100px; font-size: 50px" ng-repeat="item in Clothes.Options.Department track by $index" ng-click="Department(item.Id)">@{{item.Name}}</button>
+                <button style="height: 100px; width: 200px; font-size: 50px" ng-click="Department()">All</button>
+                @if(!\App\Http\Controllers\Controller::Auth())
+                    <button style="height: 100px; width: 200px; font-size: 50px" ng-click="ModalShoppingBasket()"><img src="img/shopping-bag.png" width="50">@{{Shopping.Basket.length}}</button>
+                    <div ng-style="modalShoppingBasket" ng-click="NotModalShoppingBasket($event)" class="modal">
+                        <div class="modal-content">
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>Clothes</th>
+                                    <th>Price</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr ng-repeat="item in Shopping.Basket track by $index">
+                                    <td>
+                                        <img style="max-width: 100px; max-height: 100px" ng-src="/img/@{{item.Images[0]}}"> @{{ item.Name }}<br/>
+                                        @{{ item.Color }}
+                                        @{{ item.Size }}
+                                        <button ng-click="RemoveItem($index)">Delete</button>
+                                    </td>
+                                    <td>$@{{ item.Price / 100 * item.Count }}</td>
+                                </tr>
+                                </tbody>
+                                <tfoot>
+                                <tr>
+                                    <td colspan="2">
+                                        <form action="api/charge" method="post" id="payment-form">
+                                            <div class="form-row">
+                                                <label for="card-element">
+                                                    Credit or debit card
+                                                </label>
+                                                <div id="card-element">
+                                                    <!-- A Stripe Element will be inserted here. -->
+                                                </div>
 
-                                        <!-- Used to display form errors. -->
-                                        <div id="card-errors" role="alert"></div>
-                                    </div>
+                                                <!-- Used to display form errors. -->
+                                                <div id="card-errors" role="alert"></div>
+                                            </div>
 
-                                    <button>Submit Payment</button>
-                                </form></td>
-                        </tr>
-                        </tfoot>
-                    </table>
-                </div>
+                                            <button>Submit Payment</button>
+                                        </form></td>
+                                </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                @endif
             </div>
-            @endif
-
-
 
 
             <hr/>
@@ -374,13 +376,7 @@
         </main>
     </div>
 @endsection
-{{--Todo:
-Editing
-Delete
-Buy
 
-
---}}
 @section('script')
     <script src="/js/Clothes/stripe.js"></script>
     <script src="/js/Clothes/Clothes.js"></script>

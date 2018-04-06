@@ -271,6 +271,7 @@ app.controller('Clothes', function ($scope, $http, $q) {
         $q.all(promises).then(function () {
             $http.post('/EditItem', $scope.ManagerItem)
                 .then(function successCallback(response) {
+                    console.log(response);
                     $scope.modal = {'display': 'none'}
                 }, function errorCallback(error) {
                     console.log(error);

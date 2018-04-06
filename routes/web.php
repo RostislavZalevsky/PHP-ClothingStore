@@ -25,8 +25,8 @@ Route::post('NewManager', 'ManagerController@NewManager');
 Route::get('NewManager/VerifyEmail/{selector}/{token}', 'ManagerController@VerifyEmail');
 Route::post('NewPasswordManager', 'ManagerController@CreateNewPassword');
 
-Route::post('Upload', 'ManagerController@Upload');
-Route::post('NewClothes', 'ManagerController@NewClothes');
+Route::post('Upload', 'ClothesController@Upload');
+Route::post('NewClothes', 'ClothesController@NewClothes');
 
 Route::post('/GetClothes', function (\Illuminate\Http\Request $request){
     $ItemOfClothes = DB::table('ItemOfClothes')
@@ -109,9 +109,9 @@ Route::post('GetAllClothes', function (\Illuminate\Http\Request $request) {
     return $result;
 });
 
-Route::post('EditItem', 'ManagerController@EditItem');
-Route::post('NewItem', 'ManagerController@NewItem');
-Route::post('DeleteItem', 'ManagerController@DeleteItem');
+Route::post('EditItem', 'ClothesController@EditItem');
+Route::post('NewItem', 'ClothesController@NewItem');
+Route::post('DeleteItem', 'ClothesController@DeleteItem');
 
 Route::get('event', function () {
     event(new \App\Events\ClothesEvent('Hello!'));
